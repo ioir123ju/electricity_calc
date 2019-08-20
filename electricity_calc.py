@@ -13,6 +13,8 @@
 pre_electric = {"public": 3830.2, "A": 1528.6, "B": 5203.9, "C": 2389.8, "D": 2164.7}
 now_electric = {"public": 4006.3, "A": 1674.2, "B": 5426.7, "C": 2592.5, "D": 2376.4}
 
+electric_cost = 383.1
+
 pre_public_electric = pre_electric["public"]
 pre_A_electric = pre_electric["A"]
 pre_B_electric = pre_electric["B"]
@@ -25,7 +27,6 @@ B_electric = now_electric["B"]
 C_electric = now_electric["C"]
 D_electric = now_electric["D"]
 
-electric_cost = 383.1
 
 all_use = (public_electric-pre_public_electric) + (A_electric - pre_A_electric) + \
           (B_electric - pre_B_electric) + (C_electric - pre_C_electric) + (D_electric - pre_D_electric)
